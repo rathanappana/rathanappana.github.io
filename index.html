@@ -3,279 +3,253 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rathan Appana — Junior Research Fellow, NeWS Lab, IIT Hyderabad. Research on network security, wireless security and privacy.">
     <title>Rathan Appana</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <style>
-        body { font-family: Arial, sans-serif; max-width: 800px; margin: auto; padding: 20px; line-height: 1.6; color: #333; }
-        h1, h2, h3 { color: #0073e6; }
-        a { color: #0073e6; text-decoration: none; }
-        a:hover { text-decoration: underline; }
-        ul { list-style-type: none; padding-left: 0; }
-        li { margin-bottom: 10px; }
-        .section { margin-bottom: 20px; }
-        nav ul { display: flex; gap: 10px; }
-        .header-container { display: flex; justify-content: space-between; align-items: center; }
-        .header-container img { max-width: 300px; border-radius: 70%; }
-        .top-icons { display: flex; justify-content: flex-start; gap: 15px; position: fixed; top: 0; background: white; width: 100%; padding: 10px; box-shadow: 0 0px 0px rgba(0,0,0,0.1); }
-        .top-icons a { font-size: 1.2em; color: #333; }
-        .top-icons a.active { font-weight: bold; color: #0073e6; }
-        .separator { border-bottom: 1px solid #ccc; margin-bottom: 10px; }
-        .contact-container { display: flex; justify-content: space-between; align-items: center; }
-        .contact-container h3 { margin: 0; }
-        .contact-container .contact_me { margin-left: auto; }
-        .contact-container .contact_me i { font-size: 3em; }
-        section { padding-top: 80px; padding-bottom: 80px; margin-top: -60px; margin-bottom: -60px;} /* Offset for fixed nav */
-    </style>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-    <div class="top-icons">
-        <a href="#home" class="nav-link">Home</a>
-        <a href="#role" class="nav-link">Role</a>
-        <a href="#pub" class="nav-link">Publications</a>
-        <a href="#education" class="nav-link">Education</a>
-        <a href="#projects" class="nav-link">Projects</a>
-        <a href="#skills" class="nav-link">Skills</a>
-        <a href="#contact" class="nav-link">Contact</a>
+    <header class="site-nav">
+        <div class="container">
+            <a href="#home" class="site-name">Rathan Appana</a>
+            <nav class="nav-links">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#role" class="nav-link">Role</a>
+                <a href="#pub" class="nav-link">Publications</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+
+        <section id="home">
+            <div class="hero">
+                <div>
+                    <h1>Hi, I'm Rathan Appana</h1>
+                    <p class="tagline">Junior Research Fellow, NeWS Lab — IIT Hyderabad</p>
+
+                    <p>I'm a <strong>Junior Research Fellow</strong> in the <strong>Network and Systems Security (NeWS) Lab</strong>, Department of CSE, <strong>IIT Hyderabad</strong>, working on network security and cybersecurity research.</p>
+
+                    <p>Previously, I was a Visiting Scholar Researcher at <strong>KU Leuven</strong>, Belgium, in the <a href="https://distrinet.cs.kuleuven.be/">DistriNet Research Unit</a> under <a href="https://www.mathyvanhoef.com/">Prof. Mathy Vanhoef</a>, and I hold an MSc in Information and Network Engineering (Networked Systems Security) from <strong>KTH Royal Institute of Technology</strong>.</p>
+
+                    <p>I'm passionate about <strong>wireless security</strong>, <strong>secure network protocols</strong>, and <strong>Linux kernel development</strong>, and about building privacy-focused, resilient network infrastructure.</p>
+
+                    <div class="hero-actions">
+                        <a class="btn primary" href="https://www.linkedin.com/in/rathan-appana/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                        <a class="btn" href="mailto:rathanappana@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+                        <a class="btn" href="https://github.com/rathanappana" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+                <img src="rathan_appana.jpg" alt="Rathan Appana">
+            </div>
+        </section>
+
+        <section id="role">
+            <h2>Current Role — Junior Research Fellow, NeWS Lab, IIT Hyderabad</h2>
+            <p>I work in the <strong><a href="https://newslab.iith.ac.in/" target="_blank" rel="noopener noreferrer">Network and Systems Security (NeWS) Lab</a></strong>, Department of Computer Science and Engineering at <strong>IIT Hyderabad</strong>, under <a href="https://iith.ac.in/cse/tbr/" target="_blank" rel="noopener noreferrer">Prof. Bheemarjuna Reddy Tamma</a>. My research centers on network security and cybersecurity, along two main threads:</p>
+            <ul>
+                <li><strong>Network-aware teleoperation:</strong> studying how underlying network conditions (latency, jitter, packet loss) affect teleoperated systems, and how to improve robustness against them.</li>
+                <li><strong>Campus network hardening:</strong> building a ransomware testbed to study detection and response on IITH's network, alongside fuzzing of Wi-Fi protocol implementations to uncover vulnerabilities in enterprise wireless deployments.</li>
+            </ul>
+
+            <h3>Previously — Visiting Scholar Researcher, KU Leuven</h3>
+            <p>I worked under <a href="https://www.mathyvanhoef.com/">Prof. Mathy Vanhoef</a> in the <a href="https://distrinet.cs.kuleuven.be/">DistriNet Research Unit</a> on privacy and security enhancements for enterprise WPA2/3 networks, including certificate validation issues and Trust-On-First-Use authentication for enterprise Wi-Fi.</p>
+        </section>
+
+        <section id="pub">
+            <h2>Publications</h2>
+
+            <div class="pub">
+                <div class="pub-title">Secure Trust On First Use for Enterprise Wi-Fi: Design Guidelines and Linux Implementation</div>
+                <div class="pub-authors">Rathan Appana, Mathy Vanhoef</div>
+                <div class="pub-meta">Proceedings of the 19th ACM Conference on Security and Privacy in Wireless and Mobile Networks (WiSec '26), Germany, 2026, pp. 97–102</div>
+                <div>doi: <a href="https://doi.org/10.1145/3765613.3811682" target="_blank" rel="noopener noreferrer">10.1145/3765613.3811682</a></div>
+                <div class="pub-keywords">Keywords: 802.1X, WPA Enterprise, PEAP, TOFU, Linux, NetworkManager</div>
+            </div>
+
+            <div class="pub">
+                <div class="pub-title">Measuring and Preventing Certificate Misconfigurations in Enterprise WPA2/3 Networks</div>
+                <div class="pub-authors">Rathan Appana, Mathy Vanhoef</div>
+                <div class="pub-meta">2025 9th Cyber Security in Networking Conference (CSNet), Abu Dhabi, United Arab Emirates, 2025, pp. 1-5</div>
+                <div>doi: <a href="https://doi.org/10.1109/CSNet67572.2025.11288146" target="_blank" rel="noopener noreferrer">10.1109/CSNet67572.2025.11288146</a></div>
+                <div class="pub-keywords">Keywords: Operating systems, Linux, Authentication, Passwords, User interfaces, WPA2, WPA3, Enterprise, Certificate Validation, Trust On First Use, Anonymous Identity</div>
+            </div>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+
+            <div class="edu-entry">
+                <strong>Master of Science in Networked System Security</strong>
+                <div class="edu-row">
+                    <span>KTH Royal Institute of Technology, Stockholm, Sweden</span>
+                    <span class="dates">Aug 2022 – Nov 2024</span>
+                </div>
+                <p>Specializing in Networked Systems with a focus on <strong>Wireless Security</strong> and <strong>Privacy-Enhancing Technologies</strong>. Key courses included <strong>Building Networked Systems Security</strong>, <strong>Wireless Networks</strong>, and <strong>Ethical Hacking</strong>, providing a comprehensive understanding of secure communication protocols and privacy challenges in modern networks.</p>
+            </div>
+
+            <div class="edu-entry">
+                <strong>Bachelor of Technology in Electronics and Communication Engineering</strong>
+                <div class="edu-row">
+                    <span>Amrita Vishwa Vidyapeetham, Bangalore, India</span>
+                    <span class="dates">Jul 2019 – Jul 2023</span>
+                </div>
+                <p>Gained a solid foundation in <strong>Wireless Communication</strong> and <strong>Network Protocols</strong>, complemented by hands-on projects. Key courses included <strong>Wireless Communication</strong>, <strong>Computer Networks</strong>, and <strong>Radio Frequency Engineering</strong>.</p>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+
+            <div class="project">
+                <h3><a href="https://github.com/rathanappana/backports_project" target="_blank" rel="noopener noreferrer">Enhancing Privacy in Wireless Communications: AP-Initiated Dynamic MAC Address Re-Randomization</a></h3>
+                <div class="meta">
+                    <span>MSc Thesis, KTH Royal Institute of Technology, Stockholm, Sweden</span>
+                    <span>Mar 2024 – Nov 2024</span>
+                </div>
+                <p>Modern wireless networks rely on <strong>MAC addresses for device identification</strong>, but once a device completes authentication, its MAC address remains static, making it <strong>susceptible to long-term tracking</strong>. My research proposes an <strong>AP-triggered MAC re-randomization protocol</strong>, ensuring that MAC addresses <strong>change dynamically even after key negotiation</strong>, mitigating tracking risks while preserving seamless connectivity.</p>
+                <details>
+                    <summary>Read more</summary>
+                    <p>To validate this approach, I implemented <strong>kernel-level modifications in mac80211</strong> and conducted extensive simulations using <strong>Mininet-WiFi, mac80211_hwsim, and wmediumd</strong>. Results showed that without re-randomization, devices were <strong>100% trackable</strong> in all network conditions. With the proposed AP-triggered scheme, MAC linkability was <strong>reduced from 100% (1 station) to 15% (11 stations)</strong>, making large-scale device tracking infeasible. <strong>Performance evaluations demonstrated minimal overhead</strong>, with an <strong>average UDP packet loss below 0.1% and stable throughput (~30 Mbps)</strong>, confirming the protocol's practical feasibility.</p>
+                    <p>This work <strong>bridges the gap between security research and real-world implementation</strong>, providing a <strong>lightweight, scalable solution</strong> to improve <strong>WiFi privacy at scale</strong>. Future work includes <strong>hardware validation, adaptive re-randomization intervals</strong>, and <strong>exploring AI-driven anomaly detection</strong> to counter evolving tracking techniques.</p>
+                </details>
+            </div>
+
+            <div class="project">
+                <h3><a href="https://github.com/rathanappana/Enterprise-Network-Penetration-Testing" target="_blank" rel="noopener noreferrer">Enterprise Network Penetration Testing (Capture The Flag)</a></h3>
+                <div class="meta">
+                    <span>Course Project, KTH Royal Institute of Technology</span>
+                    <span>Aug 2023 – Oct 2023</span>
+                </div>
+                <p>Conducted a penetration test on a simulated corporate network, exploiting vulnerabilities in web applications, databases, and network services. Captured 20+ security flags through reconnaissance, password cracking, SQL injection, remote code execution, and privilege escalation. Compromised Windows and Linux environments using <strong>Metasploit, Hydra, Burp Suite, SQLMap, and Mimikatz</strong>, reflecting industry-standard red teaming methodologies including post-exploitation, lateral movement, and credential dumping.</p>
+            </div>
+
+            <div class="project">
+                <h3><a href="https://github.com/rathanappana/Scalable-and-Secure-Network-Infrastructure-for-Distributed-Offices" target="_blank" rel="noopener noreferrer">Scalable and Secure Network Infrastructure for Distributed Offices</a></h3>
+                <div class="meta">
+                    <span>Course Project, KTH Royal Institute of Technology</span>
+                    <span>Jan 2023 – Mar 2023</span>
+                </div>
+                <p>As part of the Building Networked Systems Security (BNSS) course at KTH, this project involved designing and implementing a robust, enterprise-level <strong>secure network infrastructure</strong> for ACME Scandinavia — providing secure remote access, identity-based authentication, intrusion detection, and encrypted communication across distributed office branches.</p>
+                <details>
+                    <summary>Read more</summary>
+                    <p>The solution used a <strong>layered security approach</strong>. A <strong>site-to-site OpenVPN tunnel</strong> connected the Stockholm and London branches with encrypted traffic, while remote workers used <strong>certificate-based authentication via FreeRADIUS</strong> to prevent unauthorized access.</p>
+                    <p>To <strong>protect against network intrusions</strong>, two <strong>SNORT</strong> instances monitored both physical network traffic and VPN connections for real-time detection of malicious activity, with alerts logged and analyzed via Wireshark.</p>
+                    <p>The system also featured a <strong>reverse proxy with strict firewall rules</strong>, a self-hosted <strong>Nextcloud</strong> instance protected by <strong>two-factor authentication</strong> for secure file exchange, and <strong>Secure DNS (DoH via Cloudflare)</strong> to mitigate DNS spoofing.</p>
+                    <p><strong>Key outcome:</strong> a scalable, high-security enterprise network that prevented unauthorized access, secured sensitive data, and allowed seamless remote access without compromising security.</p>
+                </details>
+            </div>
+
+            <div class="project">
+                <h3>Facial Recognition-Based Classroom Attendance System</h3>
+                <div class="meta">
+                    <span>B.Tech Thesis, Amrita Vishwa Vidyapeetham, Bangalore, India</span>
+                    <span>Feb 2022 – Jul 2022</span>
+                </div>
+                <p>Developed an automated attendance system using <strong>facial recognition</strong> and <strong>OpenCV</strong>, implemented as a product within the university to streamline attendance tracking efficiently.</p>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+
+            <div class="skill-group">
+                <h3>Research Areas</h3>
+                <ul class="tag-list">
+                    <li class="tag">Network Security</li>
+                    <li class="tag">Wireless Security</li>
+                    <li class="tag">Wi-Fi Protocol Fuzzing</li>
+                    <li class="tag">Ransomware Testbeds</li>
+                    <li class="tag">Network-Aware Teleoperation</li>
+                    <li class="tag">Privacy-Enhancing Technologies</li>
+                    <li class="tag">Linux Kernel Development</li>
+                </ul>
+            </div>
+
+            <div class="skill-group">
+                <h3>Programming Languages</h3>
+                <ul class="tag-list">
+                    <li class="tag">C</li>
+                    <li class="tag">C++</li>
+                    <li class="tag">Python</li>
+                    <li class="tag">Bash</li>
+                </ul>
+            </div>
+
+            <div class="skill-group">
+                <h3>Networking & Security</h3>
+                <ul class="tag-list">
+                    <li class="tag">Network Protocols</li>
+                    <li class="tag">Network Configuration & Troubleshooting</li>
+                    <li class="tag">Firewalls</li>
+                    <li class="tag">VPNs</li>
+                    <li class="tag">IDS / IPS</li>
+                    <li class="tag">Encryption</li>
+                    <li class="tag">Penetration Testing</li>
+                    <li class="tag">Risk Management</li>
+                </ul>
+            </div>
+
+            <div class="skill-group">
+                <h3>Tools & Platforms</h3>
+                <ul class="tag-list">
+                    <li class="tag">Linux</li>
+                    <li class="tag">Wireshark</li>
+                    <li class="tag">SSH</li>
+                    <li class="tag">Git</li>
+                    <li class="tag">Docker</li>
+                    <li class="tag">VirtualBox / VMware</li>
+                    <li class="tag">Mininet-WiFi</li>
+                    <li class="tag">wmediumd</li>
+                    <li class="tag">Cisco Packet Tracer</li>
+                </ul>
+            </div>
+
+            <div class="skill-group">
+                <h3>Other</h3>
+                <ul class="tag-list">
+                    <li class="tag">Team Collaboration</li>
+                    <li class="tag">Project Management</li>
+                    <li class="tag">Technical Documentation</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="contact-header">
+                <h2 style="margin-bottom:0;">Get In Touch</h2>
+                <div class="contact-icons">
+                    <a href="mailto:rathanappana@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+                    <a href="https://www.linkedin.com/in/rathan-appana/" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/rathanappana" title="GitHub"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+
+            <p>I'd love to hear from you! Whether you have a question, feedback, or just want to connect, feel free to send me a message below.</p>
+
+            <form action="https://formspree.io/f/movqwobr" method="POST" class="contact-form">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required placeholder="Your Name">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required placeholder="Your Email">
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required placeholder="Your Message"></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+        <footer>&copy; 2026 Rathan Appana</footer>
     </div>
-    <div class="separator"></div>
 
-    <!-- need white space-->
-
-
-
-    <section id="home" class="section">
-        <div class="header-container">
-            <div>
-                <h1>Hi, I'm Rathan Appana</h1>
-                <p>I worked as a Visiting Scholar Researcher at <strong>KU Leuven</strong>, Belgium, worked under <a href="https://www.mathyvanhoef.com/">Prof. Mathy Vanhoef</a> in the <a href="https://distrinet.cs.kuleuven.be/">DistriNet Research Unit</a>. I hold an MSc in Information and Network Engineering, specialized in <strong>Networked System Security</strong>, from <strong>KTH Royal Institute of Technology</strong>.</p>
-
-                <p>My work focuses on <strong>Wireless Security, Secure Network Protocols, and Linux Kernel Development</strong>. During my MSc thesis, I developed a <strong>Dynamic MAC Re-randomization protocol</strong> to improve WiFi privacy by preventing device tracking in personal networks, while ensuring minimal performance overhead. Building on that foundation, my current research at KU Leuven explores privacy-enhancing mechanisms and secure protocol designs for enterprise networks.</p>
-
-                <p>I’m passionate about solving complex challenges in Linux-based systems and developing secure, resilient, and privacy-focused network infrastructures.</p>
-            </div>
-            <img src="rathan_appana.jpg" alt="Rathan Appana">
-        </div>
-    </section>
-
-    <div class="separator"></div>
-
-    <section id="role" class="section">
-        <h2>Recent Role - Visiting Scholar Researcher</h2>
-        <p>As a Visiting Scholar Researcher at <strong>KU Leuven</strong> in the <a href="https://distrinet.cs.kuleuven.be/">DistriNet Research Unit</a>, I’m working under the supervision of <a href="https://www.mathyvanhoef.com/">Prof. Mathy Vanhoef</a>. My research focuses on privacy and security enhancements for enterprise wireless networks.</p>
-        <p>This role allows me to contribute to cutting-edge security research while collaborating with a team dedicated to addressing modern challenges in network privacy and security.</p>
-    </section>
-
-    <div class="separator"></div>
-
-    <section id="pub" class="section">
-        <h2>Publications</h2>
-        <ul>
-            <li>
-            <strong>Measuring and Preventing Certificate Misconfigurations in Enterprise WPA2/3 Networks</strong><br>
-            Rathan Appana, Mathy Vanhoef<br>
-            <em>International Conference on Communication Systems and Networks (CSNet), 2025</em><br>
-            <span style="color: gray;">To be appear</span>
-            </li>
-        </ul>
-    </section>
-
-    <div class="separator"></div>
-
-    <section id="education" class="section">
-        <h2>Education</h2>
-
-        <ul>
-            <li><strong>Master of Science in Networked System Security</strong></li>
-            <a>
-                <span style="display: inline-block; width: 70%;">KTH Royal Institute of Technology, Stockholm, Sweden</span>
-                <span style="display: inline-block; width: 28%; text-align: right;">Aug 2022 – Nov 2024</span>
-            </a>
-            <p>
-                Specializing in Networked Systems with a focus on <strong>Wireless Security</strong> and <strong>Privacy-Enhancing Technologies</strong>. 
-                Key courses included <strong>Building Networked Systems Security</strong>, <strong>Wireless Networks</strong>, and <strong>Ethical Hacking</strong>, which provided a comprehensive understanding of secure communication protocols and privacy challenges in modern networks. 
-                
-            </p>
-
-            <li><strong>Bachelor of Technology in Electronics and Communication Engineering</strong> </li>
-            <a>
-                <span style="display: inline-block; width: 70%;">Amrita Vishwa Vidyapeetham, Bangalore, India</span>
-                <span style="display: inline-block; width: 28%; text-align: right;">Jul 2019 – Jul 2023</span>
-            </a>
-            <p>
-                Gained a solid foundation in <strong>Wireless Communication</strong> and <strong>Network Protocols</strong>, complemented by hands-on projects. 
-                Key courses included <strong>Wireless Communication</strong>, <strong>Computer Networks</strong>, and <strong>Radio Frequency Engineering</strong>. 
-                
-            </p>
-
-        </ul>
-
-    </section>
-
-    <div class="separator"></div>
-
-    <section id="projects" class="section">
-        <h2>Projects</h2>
-        
-        <li> <a href="https://github.com/rathanappana/backports_project" target="_blank" rel="noopener noreferrer"> <strong>Enhancing Privacy in Wireless Communications: AP-Initiated Dynamic MAC Address Re-Randomization</strong> </a> </li>
-        <p>
-            <span style="display: inline-block; width: 70%;">MSc Thesis, KTH Royal Institute of Technology, Stockholm, Sweden</span>
-            <span style="display: inline-block; width: 28%; text-align: right;">Mar 2024 – Nov 2024</span>
-        </p>
-        <p>
-            Modern wireless networks rely on <strong>MAC addresses for device identification</strong>, but once a device completes authentication, its MAC address remains static, making it <strong>susceptible to long-term tracking</strong>. Existing MAC randomization techniques only protect devices <strong>before association</strong> and fail to provide privacy <strong>during an active connection</strong>. My research proposes an <strong>AP-triggered MAC re-randomization protocol</strong>, ensuring that MAC addresses <strong>change dynamically even after key negotiation</strong>, mitigating tracking risks in real-time while preserving seamless connectivity.
-        </p>
-        
-        <p>
-            To validate this approach, I implemented <strong>kernel-level modifications in mac80211</strong> and conducted extensive simulations using <strong>Mininet-WiFi, mac80211_hwsim, and wmediumd</strong>. Results showed that without re-randomization, devices were <strong>100% trackable</strong> in all network conditions. With the proposed AP-triggered scheme, MAC linkability was <strong>reduced from 100% (1 station) to 15% (11 stations)</strong>, making large-scale device tracking infeasible. <strong>Performance evaluations demonstrated minimal overhead</strong>, with an <strong>average UDP packet loss below 0.1% and stable throughput (~30 Mbps)</strong>, confirming the protocol's practical feasibility.
-        </p>
-        
-        <p>
-            This work <strong>bridges the gap between security research and real-world implementation</strong>, providing a <strong>lightweight, scalable solution</strong> to improve <strong>WiFi privacy at scale</strong>. Future work includes <strong>hardware validation, adaptive re-randomization intervals</strong>, and <strong>exploring AI-driven anomaly detection</strong> to counter evolving tracking techniques.
-        </p>
-        
-        <li><a href="https://github.com/rathanappana/Enterprise-Network-Penetration-Testing" target="_blank" rel="noopener noreferrer"> <strong>Enterprise Network Penetration Testing (Capture The Flag)</strong> </a></li>
-        <p>
-            <span style="display: inline-block; width: 70%;">Course Project, KTH Royal Institute of Technology</span>
-            <span style="display: inline-block; width: 28%; text-align: right;">Aug 2023 – Oct 2023</span>
-        </p>
-        <p>
-            Conducted a penetration test on a simulated corporate network, exploiting vulnerabilities in web applications, 
-            databases, and network services. Captured 20+ security flags by performing reconnaissance, password cracking, 
-            SQL injection, remote code execution, and privilege escalation. Successfully compromised Windows and Linux 
-            environments using Metasploit, Hydra, Burp Suite, SQLMap, and Mimikatz, demonstrating real-world offensive security 
-            techniques. The project emphasized post-exploitation tactics, lateral movement, and credential dumping, reflecting 
-            industry-standard red teaming methodologies.
-        </p>
-        <li><a href="https://github.com/rathanappana/Scalable-and-Secure-Network-Infrastructure-for-Distributed-Offices" target="_blank" rel="noopener noreferrer"> <strong>Scalable and Secure Network Infrastructure for Distributed Offices</strong> </a></li>
-        <p>
-            <span style="display: inline-block; width: 70%;">Course Project, KTH Royal Institute of Technology</span>
-            <span style="display: inline-block; width: 28%; text-align: right;">Jan 2023 – Mar 2023</span>
-        </p>
-        <!--<p>
-            Designed a secure network solution for remote office data exchange. Configured <strong>OpenVPN</strong> for secure access, 
-            implemented <strong>WPA2 Enterprise</strong> for wireless communication, and set up <strong>Docker containers</strong> for service isolation. 
-            Deployed <strong>OpenWRT</strong> for access control, and integrated <strong>SNORT</strong> for intrusion detection.
-        </p>-->
-
-        <p>
-            As part of the Building Networked Systems Security (BNSS) course at KTH, this project involved designing and implementing a 
-            robust, enterprise-level <strong>secure network infrastructure</strong> for ACME Scandinavia. The goal was to provide <strong>secure remote access, 
-            identity-based authentication, intrusion detection, and encrypted communication</strong> across distributed office branches.
-        </p>
-        
-        <p>
-            The solution utilized a <strong>layered security approach</strong> by integrating multiple security components. A 
-            <strong>site-to-site OpenVPN tunnel</strong> was deployed to establish a <strong>secure connection between Stockholm and London branches</strong>, ensuring 
-            encrypted traffic between the two locations. Additionally, remote workers were provided <strong>certificate-based authentication via 
-            FreeRADIUS</strong>, preventing unauthorized access.
-        </p>
-        
-        <p>
-            To <strong>protect against network intrusions</strong>, an <strong>Intrusion Detection System (IDS) using SNORT</strong> was implemented. Two separate SNORT 
-            instances were deployed to monitor both the <strong>physical network traffic and VPN connections</strong>, allowing real-time detection of malicious 
-            activity. All alerts were logged and could be further analyzed using Wireshark.
-        </p>
-        
-        <p>
-            The system also featured a <strong>reverse proxy with strict firewall rules</strong>, ensuring that only authorized users could access internal 
-            resources. Secure file exchange and communication were facilitated through a self-hosted <strong>Nextcloud instance</strong>, which was protected by 
-            <strong>two-factor authentication (2FA)</strong> to prevent unauthorized access. Additionally, <strong>Secure DNS (DoH via Cloudflare)</strong> was implemented to 
-            mitigate DNS spoofing attacks.
-        </p>
-        
-        <p>
-            <strong>Key Outcomes:</strong> The designed architecture successfully established a scalable, high-security enterprise network that prevented 
-            unauthorized access, secured sensitive data, and allowed seamless remote access without compromising security.
-        </p>
-
-        <li><strong>Facial Recognition-Based Classroom Attendance System</strong></li>
-        <p>
-            <span style="display: inline-block; width: 70%;">B.Tech Thesis, Amrita Vishwa Vidyapeetham, Bangalore, India</span>
-            <span style="display: inline-block; width: 28%; text-align: right;">Feb 2022 – Jul 2022</span>
-        </p>
-        <p>
-            Developed an automated attendance system using <strong>facial recognition</strong> and <strong>OpenCV</strong>. 
-            The system was implemented as a product within the university to streamline attendance tracking efficiently.
-        </p>
-
-    </section>
-
-    <div class="separator"></div>
-
-    <section id="skills" class="section">
-        <h2>Skills</h2>
-
-        <ul>
-            <li><strong>Programming Languages</strong></li>
-            <p>C, C++, Python</p>
-    
-            <li><strong>Networking & Protocols</strong></li>
-            <p>Linux, VMware, Bash, Network Protocols, Network Configuration, Network Troubleshooting</p>
-    
-            <li><strong>Network Security</strong></li>
-            <p>Firewalls, VPNs, Intrusion Detection Systems (IDS), Intrusion Prevention Systems (IPS), Encryption, Penetration Testing, Risk Management</p>
-    
-            <li><strong>Tools & Platforms</strong></li>
-            <p>Wireshark, SSH, Git, Docker, VirtualBox, Cisco Packet Tracer, Mininet-WiFi, wmediumd</p>
-    
-            <li><strong>Other Skills</strong></li>
-            <p>Team Collaboration, Project Management, Technical Documentation</p>
-        </ul>
-
-    </section>
-
-
-    <section id="contact" class="section">
-        <div class="separator"></div>
-        <div class="contact-container">
-            <h3>Get In Touch</h3>
-            <div class="contact_me">
-                <a href="mailto:rathanappana@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
-                <a href="https://www.linkedin.com/in/rathan-appana/" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                <a href="https://github.com/rathanappana" title="GitHub"><i class="fab fa-github"></i></a>
-            </div>
-        </div>
-
-        <p>I'd love to hear from you! Whether you have a question, feedback, or just want to connect, feel free to send me a message below.</p>
-
-        <form action="https://formspree.io/f/movqwobr" method="POST" class="contact-form">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" required placeholder="Your Name">
-
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required placeholder="Your Email">
-
-            <label for="message">Message</label>
-            <textarea id="message" name="message" required placeholder="Your Message"></textarea>
-
-            <button type="submit">Send Message</button>
-        </form>
-    </section>
-
-
-    <script>
-        // Highlight the active section in the navigation bar
-        const sections = document.querySelectorAll('section');
-        const navLinks = document.querySelectorAll('.nav-link');
-
-        window.addEventListener('scroll', () => {
-            let current = '';
-            sections.forEach(section => {
-                const sectionTop = section.offsetTop;
-                if (pageYOffset >= sectionTop - 60) {
-                    current = section.getAttribute('id');
-                }
-            });
-
-            navLinks.forEach(link => {
-                link.classList.remove('active');
-                if (link.getAttribute('href').includes(current)) {
-                    link.classList.add('active');
-                }
-            });
-        });
-    </script>
+    <script src="js/script.js"></script>
 
 </body>
 </html>
